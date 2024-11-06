@@ -27,5 +27,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
         pessoa = new Pessoa();
+        pessoa.setPrimeiroNome("Marco");
+        pessoa.setSobrenome("Maddo");
+        pessoa.setCursoDesejado("Android");
+        pessoa.setTelefoneContato("11-929292929");
     }
 }
